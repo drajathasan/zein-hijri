@@ -1,0 +1,20 @@
+{
+    "name": "zein/hijri",
+    "description": "extended hijri date library from nazir/go2hi with carbon syntax style",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zein\\Hijri\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Drajat Hasan",
+            "email": "drajathasan20@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-date": "*"
+    }
+}
